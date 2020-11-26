@@ -221,6 +221,10 @@
   (puzzle-player {:question-fn rand-square
                   :answer-fn   knights-moves-for-square}))
 
+;;; TODO: create a game that lists all squares a given piece can be on to attack
+;;; both squares, e.g. Queen on d4 attacks d1 and g7 - this is what generates
+;;; tactical "vision"
+
 (comment
   (color-player)
   (file-arithmetic-player)

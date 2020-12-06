@@ -1,1 +1,2 @@
-{:paths ["src"]}
+{:paths ["src"]
+ :deps {com.cemerick/url {:mvn/version "0.1.1"}}}
